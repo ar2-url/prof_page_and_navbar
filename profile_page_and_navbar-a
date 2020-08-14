@@ -1,0 +1,18 @@
+//profile_page_and_navbar
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {NavBar} from './NavBar';
+
+class ProfilePage extends React.Component {
+  render() {
+    return (
+      <div>
+        <NavBar />
+        <h1>Some text</h1>
+        <p>Ad_rem</p>
+        <img src="https://static.boredpanda.com/blog/wp-content/uploads/2020/08/13669870_32c5-5f35e2d48208e__700.jpg" />
+      </div>
+    );
+  }
+}
